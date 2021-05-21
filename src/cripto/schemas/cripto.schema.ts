@@ -5,9 +5,6 @@ export const CriptoSchema = new Schema({
     alias: String,
     valor: Number,
     forma_minar: String,
-    criptos : {
-     nombre: String,
-     valor: Number
-    }
+    criptos : []
 
 })
